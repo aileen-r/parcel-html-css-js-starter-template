@@ -22,5 +22,8 @@
     "parcel": "^2.0.0-rc.0",
     "posthtml-include": "^1.7.1",
     "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "prismjs": "^1.24.1"
   }
 }
