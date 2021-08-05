@@ -3,3 +3,9 @@
 *::after {
   box-sizing: border-box;
 }
+
+.feature img.logo {
+  height: 300px;
+  object-fit: contain;
+  width: 300px;
+}
