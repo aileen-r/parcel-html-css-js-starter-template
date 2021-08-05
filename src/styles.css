@@ -1,11 +1,148 @@
+:root {
+  --background: #fffffe;
+  --card-background: #f2f4f6;
+  --heading: #00214d;
+  --link: #ff526f;
+  --link-darkened: #ad001d;
+  --link-muted: #d98c99;
+  --text: #1b2d45;
+  --text-muted: #abb1ba;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
+body {
+  color: var(--text);
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading);
+  margin-top: 0;
+  text-align: center;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-darkened);
+}
+
+pre {
+  overflow-x: scroll;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  padding: 3em 1.5em;
+  justify-content: center;
+}
+
+.section:nth-child(2n) {
+  background-color: var(--background);
+}
+
+.section:nth-child(2n-1) {
+  background-color: var(--card-background);
+  padding: 4em 1.5em;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  width: 100%;
+}
+
+.header {
+  min-height: 40vh;
+  text-align: center;
+}
+
+.header p {
+  font-size: 1.2em;
+}
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -1.75em -1.5em;
+  padding: 0 0.75em;
+}
+
+.feature {
+  align-items: center;
+  background-color: var(--card-background);
+  border-radius: 0.75em;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 calc(100% - 1.5em);
+  margin: 0.75em;
+  overflow: hidden;
+  padding: 1.5em;
+}
+
+@media (min-width: 600px) {
+  /* .features-grid {
+    margin: auto;
+    max-width: 90%;
+  } */
+
+  .feature {
+    flex: 0 0 calc(50% - 1.5em);
+  }
+}
+
+@media (min-width: 1024px) {
+  .feature {
+    flex: 0 0 calc(33% - 1.5em);
+  }
+}
+
 .feature img.logo {
-  height: 300px;
+  max-height: 300px;
+  max-width: 100%;
   object-fit: contain;
   width: 300px;
+}
+
+.parcel p {
+  font-size: 18px;
+}
+
+.footer {
+  color: var(--text-muted);
+  font-size: 0.8em;
+  padding: 2em 1.5em;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer a {
+  color: var(--link-muted);
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
