@@ -1,3 +1,3 @@
-// Here you can use modern ES6 features and syntax such as imports
+import helloWorld from "./scripts/helloWorld";
 
-console.log("Hello world 👋");
+helloWorld();
