@@ -1,3 +1,5 @@
+/* CSS variables ------------------------------------------------- */
+
 :root {
   --background: #fffffe;
   --card-background: #f2f4f6;
@@ -8,6 +10,8 @@
   --text: #1b2d45;
   --text-muted: #abb1ba;
 }
+
+/* global styles ------------------------------------------------- */
 
 *,
 *::before,
@@ -52,6 +56,8 @@ p {
   max-width: 800px;
 }
 
+/* main.html ----------------------------------------------------- */
+
 .section {
   display: flex;
   flex-direction: column;
@@ -74,6 +80,8 @@ p {
   width: 100%;
 }
 
+/* header.html --------------------------------------------------- */
+
 .header {
   min-height: 40vh;
   text-align: center;
@@ -88,12 +96,9 @@ p {
 }
 
 .header .get-started {
-  margin-top: 2.5em;
-}
-
-.header .get-started {
   display: flex;
   justify-content: center;
+  margin-top: 2.5em;
 }
 
 .header .get-started a {
@@ -121,6 +126,8 @@ p {
   margin-right: 0.5em;
   width: 16px;
 }
+
+/* features.html ------------------------------------------------- */
 
 .features-grid {
   display: flex;
@@ -172,9 +179,13 @@ p {
   width: 100%;
 }
 
+/* parcel.html --------------------------------------------------- */
+
 .parcel p {
   font-size: 18px;
 }
+
+/* footer.html --------------------------------------------------- */
 
 .footer {
   color: var(--text-muted);
@@ -213,7 +224,8 @@ p {
   }
 }
 
-/* Prism syntax highlight overrides */
+/* Prism syntax highlight overrides ------------------------------ */
+
 pre {
   margin: 0 !important;
 }
