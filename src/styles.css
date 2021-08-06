@@ -17,7 +17,7 @@
 
 body {
   color: var(--text);
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   margin: 0;
 }
 
@@ -85,6 +85,41 @@ p {
 
 .header p {
   font-size: 1.2em;
+}
+
+.header .get-started {
+  margin-top: 2.5em;
+}
+
+.header .get-started {
+  display: flex;
+  justify-content: center;
+}
+
+.header .get-started a {
+  margin: 0 0.5em;
+}
+
+.header .get-started a:hover {
+  opacity: 0.8;
+}
+
+.github-button {
+  align-items: center;
+  background-color: var(--background);
+  border-radius: 5px;
+  color: var(--text);
+  display: flex;
+  font-size: 0.9em;
+  height: 32px;
+  justify-content: center;
+  width: 146px;
+}
+
+.github-button img {
+  height: 16px;
+  margin-right: 0.5em;
+  width: 16px;
 }
 
 .features-grid {
@@ -191,7 +226,7 @@ pre code {
   background-color: var(--background) !important;
   font-size: 0.9em !important;
   border: none !important;
-  box-shadow:0px 0px 0px 1px #dfdfdf !important;
+  box-shadow: 0px 0px 0px 1px #dfdfdf !important;
   background-color: var(--background) !important;
   background-image: linear-gradient(
     transparent 50%,
