@@ -13,7 +13,6 @@ To get started instantly, you can one-click deploy to Netlify below (this also c
 ### HTML5 partials with posthtml‑include
 
 Split your HTML pages into smaller, more manageable files with PostHTML's Include plugin for Parcel.
-Usage
 
 ```html
 <!-- index.html -->
@@ -39,7 +38,6 @@ Usage
 ### Modern ES6 JavaScript
 
 Use modern JavaScript syntax and features like ES6 imports without the need for additional configuration.
-Usage
 
 ```js
 // index.js
@@ -60,7 +58,7 @@ export default helloWorld;
 
 ### CSS
 
-A plain ol' vanilla CSS stylesheet to get you started. Check out my Parcel HTML, SASS, and JavaScript starter template if you are interested in using the CSS pre-processor SASS. Or, have a look at the [Parcel docs](https://v2.parceljs.org/) if you're interested in adding on another pre- or post-processor such as PostCSS, LESS, or Stylus.
+A plain ol' vanilla CSS stylesheet to get you started. Check out my [Parcel HTML, SASS, and JavaScript starter template](https://github.com/aileen-r/parcel-html-sass-js-starter-template) if you are interested in using the CSS pre-processor SASS. Or, have a look at the [Parcel docs](https://v2.parceljs.org/) if you're interested in adding on another pre- or post-processor such as PostCSS, LESS, or Stylus.
 
 ## How to run
 **Prerequisites**: You'll need [Node](https://nodejs.org) and [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) installed on your local computer.
