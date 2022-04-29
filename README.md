@@ -68,7 +68,7 @@ Run
 ```
 npm install
 ```
-to intall dependencies, then
+to install dependencies, then
 ```
 npm start
 ```
